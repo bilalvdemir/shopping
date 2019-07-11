@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: shoppingcart
+
+  data:
+    mongodb:
+      host:  localhost
+      port: 27017
+      database: shopping
+
+logging:
+  level:
+    com.example: DEBUG
+    
+server:
+  port: 8080
